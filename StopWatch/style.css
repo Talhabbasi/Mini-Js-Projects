@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container p{
+    margin-right: 2rem;
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.digit{
+    padding: 10px;
+    font-size: 100px;
+}
+.btn{
+  display: flex;
+  flex-direction: column;  
+}
+.btn button{
+    width: 200px;
+    margin: 4px;
+    padding: 10px;
+}

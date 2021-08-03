@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{ 
+    bottom: 45%;
+    position: absolute;
+    left: 40%;
+    width: 355px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(167, 191, 191);
+}
+h1{
+    padding-top: 50px;
+}
+.input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.inputt{ 
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+}
+label{
+    font-weight: 800;
+}
+@media (max-width:760px){
+    .container{
+        
+       height: auto;
+       margin-bottom: 200px; 
+        width: auto;
+        left: 0%;
+    }
+    h1{
+        text-align: center;
+    }
+}
